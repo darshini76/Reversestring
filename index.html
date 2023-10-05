@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Reverse the string
+        </title>
+    </head>
+    <body>
+        <h4>Reversing the given String</h4>
+        <script>
+            function reverseString(str) {
+           var reversed = '';
+           for (var i = str.length - 1; i >= 0; i--) {
+             reversed += str[i];
+            }
+            return reversed;
+        }
+
+            const originalString = prompt("enter the data");
+            const reversedString = reverseString(originalString);
+            document.write(reversedString);
+
+        </script>
+    </body>
+</html>
